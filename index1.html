@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organ Transplant Management System</title>
+    <style>
+        /* Add some style to the page */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /* Change the font to 'Courier New' */
+            background-color: #05465e;
+            color: #ffffff;
+            transition: background-color 0.5s ease;
+            text-align: center;
+            /* Center the content */
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            /* Change the font to 'Georgia' */
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        a {
+            display: inline-block;
+            /* Make the links block elements */
+            color: #ffffff;
+            text-decoration: none;
+            background-color: #066e88;
+            /* Add a blue background */
+            padding: 10px 20px;
+            /* Add some padding */
+            margin: 10px;
+            /* Add some margin */
+            border-radius: 5px;
+            /* Round the corners */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #f0f0f0;
+            /* Lighten the background on mouse over */
+            color: #125872;
+            /* Change the text color to red on mouse over */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            transition: background-color 0.3s ease;
+        }
+
+        th:hover,
+        td:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Add a style for the button */
+        .bottom-right-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #066e88;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .bottom-right-button:hover {
+            background-color: #f0f0f0;
+            color: #125872;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Organ Transplant Management System</h1>
+    <ol>
+        <a href="http://localhost/organ_transplant1/doc_match.php" target="_self">Find a match and initiate
+            transplantation</a><br><br>
+        <a href="http://localhost/organ_transplant1/doc_update.php" target="_self">Update the Trnasplantation
+            Result</a><br><br>
+        <a href="http://localhost/organ_transplant1/result.php" target="_self">View all Transplantation
+            Records</a><br><br>
+    </ol>
+
+
+    <a href="file:///C:/xamppp/htdocs/organ_transplant1/index.html" target="_self" class="bottom-right-button">Switch to
+        Donor/Patient</a>
+</body>
+
+</html>
